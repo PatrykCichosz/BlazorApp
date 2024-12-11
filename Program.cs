@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.DependencyInjection;
-using MMAApp;
 using MMAApp.Services;
 using System.Net.Http;
 using System.Threading.Tasks;
