@@ -1,0 +1,141 @@
+﻿<div class="navbar" style="background-color: #1a1a1a;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">MMAApp</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <NavLink class="nav-link nav-button" href="/" exact="true" activeClassName="active">Home</NavLink>
+                </li>
+                <li class="nav-item">
+                    <NavLink class="nav-link nav-button" href="/search" activeClassName="active">Search Fighter</NavLink>
+                </li>
+                <li class="nav-item">
+                    <NavLink class="nav-link nav-button" href="/fightresults" activeClassName="active">Fight Results</NavLink>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<style>
+    .navbar {
+        background-color: #1a1a1a;
+    }
+
+
+    .navbar-brand {
+        color: #FFD100;
+        font-size: 2.6rem;
+        font-weight: bold;
+        padding: 20px 30px;
+        margin-left: 50px;
+        transition: background-color 0.3s, transform 0.2s ease;
+        border-radius: 5px;
+    }   
+
+        .navbar-brand:hover {
+            color: white;
+            transform: scale(1.1);
+        }
+
+
+    .navbar-nav {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .nav-button {
+        background-color: #FFD700;
+        color: black !important;
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s, transform 0.2s ease;
+    }
+
+        .nav-button:hover {
+            background-color: #FF8C00;
+            transform: scale(1.1);
+        }
+
+
+    .navbar-toggler-icon {
+        background-color: #FFD700 !important;
+    }
+
+
+    .nav-button:focus {
+        outline: none;
+    }
+
+
+
+
+    .nav-link {
+        color: black !important;
+    }
+
+        .nav-link:hover {
+            color: black !important;
+            background-color: #FF8C00;
+        }
+
+    .navbar-collapse {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    .home-page {
+        background-color: #2c2c2c;
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+        font-family: 'Arial', sans-serif;
+    }
+
+
+    .page-title {
+        font-size: 3rem;
+        color: #FFD700; 
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+
+    .intro-text {
+        font-size: 1.2rem;
+        color: #ddd;
+        margin-bottom: 30px;
+    }
+
+    .nav-button {
+        background-color: #FFD700 !important;
+        color: black !important;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 15px 40px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+
+        .nav-button:hover {
+            background-color: #FF8C00 !important;
+            color: black !important;
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(255, 140, 0, 0.8);
+        }
+
+
+
+    }
+</style>

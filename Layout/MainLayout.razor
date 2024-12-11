@@ -1,0 +1,20 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page" style="background-color: #1a1a1a; margin: 0; padding: 0; min-height: 100vh;">
+    <div class="sidebar" style="background-color: #333; height: 100%; overflow: hidden;">
+        <NavMenu />
+    </div>
+
+    <main style="background-color: #1a1a1a; margin: 0; padding: 0; height: 100%;">
+        <article class="content px-4" style="background-color: #1a1a1a;">
+            @Body
+        </article>
+    </main>
+</div>
+
+<style>
+
+    .page {
+        font-family: 'Arial', sans-serif;
+    }
+</style>
