@@ -1,0 +1,91 @@
+.home-page {
+    background-color: #2c2c2c;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.page-title {
+    font-size: 3rem;
+    color: #FFD700; /
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.intro-text {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-bottom: 30px;
+}
+
+
+.mma-button {
+    background-color: #FFD700;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+    .mma-button:hover {
+        background-color: #FF8C00;
+        transform: scale(1.1);
+    }
+
+
+    .mma-button:focus {
+        outline: none;
+    }
+
+
+
+body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.2em;
+}
+
+
+p, a, li, span {
+    font-size: 1em;
+}
+
+
+.navbar .navbar-button {
+    background-color: #FFD700;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s ease;
+}
+
+    .navbar .navbar-button:hover {
+        background-color: #FF8C00;
+        transform: scale(1.1);
+    }
+
+.navbar .navbar-toggler-icon {
+    background-color: #FFD700 !important;
+}
+
+
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+}

@@ -1,0 +1,294 @@
+﻿@page "/search"
+@using MMAApp.Services
+@inject MMAService MMAService
+@using System.Text.Json
+@using System.Net.Http
+@using System.Threading.Tasks
+
+<div style="background-color: #1a1a1a; min-height: 100vh; padding: 20px; color: white;">
+    <h3 class="page-title">Search for MMA Fighter</h3>
+    <div class="search-bar">
+        <input type="text" @bind="fighterName" placeholder="Enter fighter name" class="search-input" />
+        <button @onclick="SearchFighter" class="search-button">Search</button>
+    </div>
+
+    <div class="fighter-results @(string.IsNullOrEmpty(apiResponse) ? "" : "show")">
+        @(new MarkupString(apiResponse))
+    </div>
+
+    @if (fighter != null)
+    {
+        <div class="center-container">
+            <button @onclick="GetFighterRecord" class="record-button">Get Fighter Record</button>
+        </div>
+    }
+
+    @if (fighterRecord != null)
+    {
+        <div class="fighter-record">
+            <h3>Fighter Record</h3>
+            <p><strong>Wins:</strong> @fighterRecord.Wins</p>
+            <p><strong>Losses:</strong> @fighterRecord.Losses</p>
+            <p><strong>Draws:</strong> @fighterRecord.Draws</p>
+        </div>
+    }
+</div>
+
+@code {
+    private string fighterName = string.Empty;
+    private string apiResponse = string.Empty;
+    private Fighter fighter;
+    private FighterRecord fighterRecord;
+
+    private async Task SearchFighter()
+    {
+        fighterRecord = null;
+
+        if (!string.IsNullOrEmpty(fighterName))
+        {
+            var response = await MMAService.SearchFighters(fighterName);
+
+            if (!string.IsNullOrEmpty(response) && response.Contains("\"results\":1"))
+            {
+                var fighterData = ParseFighterData(response);
+
+                if (fighterData != null)
+                {
+                    fighter = fighterData;
+                    apiResponse = $@"
+<div class='fighter-card'>
+    <img src='{fighterData.Photo}' class='fighter-image' alt=""this.onerror=null;this.src='anonymous-photo.png';"" onerror=""this.onerror=null;this.src='anonymous-photo.png';"" />
+    <div class='fighter-details'>
+        <h3>{fighterData.Name}</h3>
+        <p><strong>Nickname:</strong> {fighterData.Nickname}</p>
+        <p><strong>Gender:</strong> {fighterData.Gender}</p>
+        <p><strong>Height:</strong> {fighterData.Height}</p>
+        <p><strong>Weight:</strong> {fighterData.Weight}</p>
+        <p><strong>Reach:</strong> {fighterData.Reach}</p>
+        <p><strong>Stance:</strong> {fighterData.Stance}</p>
+        <p><strong>Category:</strong> {fighterData.Category}</p>
+    </div>
+</div>";
+                }
+                else
+                {
+                    apiResponse = "<p class='error-message'>No valid fighter data found.</p>";
+                }
+            }
+            else
+            {
+                apiResponse = "<p class='error-message'>No fighter found or no nickname available.</p>";
+            }
+        }
+        else
+        {
+            apiResponse = "<p class='error-message'>Please enter a fighter name.</p>";
+        }
+    }
+
+    private async Task GetFighterRecord()
+    {
+        if (fighter != null)
+        {
+            var recordResponse = await GetFighterRecordFromApi(fighter.Id);
+
+            if (recordResponse != null)
+            {
+                fighterRecord = recordResponse;
+            }
+            else
+            {
+                fighterRecord = new FighterRecord { Wins = "N/A", Losses = "N/A", Draws = "N/A" };
+            }
+        }
+    }
+
+    private async Task<FighterRecord> GetFighterRecordFromApi(int fighterId)
+    {
+        try
+        {
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.Add("X-RapidAPI-Key", "f7fc9dad1a2719b1f8c234ec0ad61713");
+            var response = await client.GetStringAsync($"https://v1.mma.api-sports.io/fighters/records?id={fighterId}");
+
+            var recordJson = JsonSerializer.Deserialize<JsonElement>(response);
+            var recordData = recordJson.GetProperty("response")[0];
+            var total = recordData.GetProperty("total");
+
+            return new FighterRecord
+                {
+                    Wins = total.GetProperty("win").GetInt32().ToString(),
+                    Losses = total.GetProperty("loss").GetInt32().ToString(),
+                    Draws = total.GetProperty("draw").GetInt32().ToString()
+                };
+        }
+        catch
+        {
+            return null;
+        }
+    }
+
+    private Fighter ParseFighterData(string response)
+    {
+        try
+        {
+            var fighterJson = JsonSerializer.Deserialize<JsonElement>(response);
+            var fighterElement = fighterJson.GetProperty("response")[0];
+
+            return new Fighter
+                {
+                    Id = fighterElement.GetProperty("id").GetInt32(),
+                    Name = fighterElement.GetProperty("name").GetString(),
+                    Nickname = fighterElement.GetProperty("nickname").GetString(),
+                    Weight = fighterElement.GetProperty("weight").GetString(),
+                    Height = fighterElement.GetProperty("height").GetString(),
+                    Gender = fighterElement.TryGetProperty("gender", out var gender) ? gender.GetString() : "Unknown",
+                    BirthDate = fighterElement.TryGetProperty("birth_date", out var birth) ? birth.GetString() : "N/A",
+                    Reach = fighterElement.TryGetProperty("reach", out var reach) ? reach.GetString() : "N/A",
+                    Stance = fighterElement.TryGetProperty("stance", out var stance) ? stance.GetString() : "N/A",
+                    Category = fighterElement.TryGetProperty("category", out var category) ? category.GetString() : "N/A",
+                    Photo = fighterElement.TryGetProperty("photo", out var photo) ? photo.GetString() : ""
+                };
+        }
+        catch
+        {
+            return null;
+        }
+    }
+
+    public class Fighter
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Nickname { get; set; }
+        public string Weight { get; set; }
+        public string Height { get; set; }
+        public string Gender { get; set; }
+        public string BirthDate { get; set; }
+        public string Reach { get; set; }
+        public string Stance { get; set; }
+        public string Category { get; set; }
+        public string Photo { get; set; }
+    }
+
+    public class FighterRecord
+    {
+        public string Wins { get; set; }
+        public string Losses { get; set; }
+        public string Draws { get; set; }
+    }
+}
+
+<style>
+    .page-title {
+        text-align: center;
+        font-size: 2rem;
+        color: white;
+        background-color: #333;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    .search-bar {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .search-input {
+        padding: 10px;
+        font-size: 1rem;
+        margin-right: 15px;
+        border: 2px solid #ffcc00;
+        border-radius: 5px;
+        background-color: #333;
+        color: #fff;
+    }
+
+        .search-input::placeholder {
+            color: white;
+        }
+
+    .search-button {
+        padding: 10px 20px;
+        font-weight: bold;
+        font-size: 1rem;
+        background-color: #FFD700;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+        .search-button:hover {
+            background-color: #FF8C00;
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(255, 140, 0, 0.8);
+        }
+
+    .fighter-card {
+        display: flex;
+        background-color: #222;
+        color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        width: 100%;
+        max-width: 800px;
+        margin: 10px auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+    }
+
+    .fighter-image {
+        width: 50%;
+        object-fit: cover;
+    }
+
+    .fighter-details {
+        padding: 20px;
+        width: 50%;
+    }
+
+        .fighter-details h3 {
+            margin-top: 0;
+            color: #FF4500;
+        }
+
+    .error-message {
+        color: red;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .center-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .record-button {
+        padding: 10px 20px;
+        font-weight: bold;
+        font-size: 1rem;
+        background-color: #FFD700;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+        .record-button:hover {
+            background-color: #FF8C00;
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(255, 140, 0, 0.8);
+        }
+
+    .fighter-record {
+        text-align: center;
+        background-color: #222;
+        color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+</style>
