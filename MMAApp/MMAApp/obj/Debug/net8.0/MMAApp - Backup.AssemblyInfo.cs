@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MMAApp - Backup")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57802622b4eb12197fda91691a60459971884d22")]
 [assembly: System.Reflection.AssemblyProductAttribute("MMAApp - Backup")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MMAApp - Backup")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

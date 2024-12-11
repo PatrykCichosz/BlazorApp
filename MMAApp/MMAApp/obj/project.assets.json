@@ -447,22 +447,6 @@
           }
         }
       },
-      "Selenium.Support/4.27.0": {
-        "type": "package",
-        "dependencies": {
-          "Selenium.WebDriver": "4.27.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/WebDriver.Support.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/WebDriver.Support.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Selenium.WebDriver/4.27.0": {
         "type": "package",
         "compile": {
@@ -564,7 +548,7 @@
           }
         }
       },
-      "xunit.analyzers/1.17.0": {
+      "xunit.analyzers/1.16.0": {
         "type": "package"
       },
       "xunit.assert/2.9.2": {
@@ -1074,22 +1058,6 @@
           }
         }
       },
-      "Selenium.Support/4.27.0": {
-        "type": "package",
-        "dependencies": {
-          "Selenium.WebDriver": "4.27.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/WebDriver.Support.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/WebDriver.Support.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Selenium.WebDriver/4.27.0": {
         "type": "package",
         "compile": {
@@ -1185,7 +1153,7 @@
           }
         }
       },
-      "xunit.analyzers/1.17.0": {
+      "xunit.analyzers/1.16.0": {
         "type": "package"
       },
       "xunit.assert/2.9.2": {
@@ -2207,20 +2175,6 @@
         "restsharp.png"
       ]
     },
-    "Selenium.Support/4.27.0": {
-      "sha512": "vPsJmYP+ONxutAmkpSc2cXJCO/eHjP+4dccx/M9mGntOZuVjM0DOzyH2cvX8tDoQ18yUq8l2P4rA3a278Gp2KQ==",
-      "type": "package",
-      "path": "selenium.support/4.27.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/netstandard2.0/WebDriver.Support.dll",
-        "lib/netstandard2.0/WebDriver.Support.xml",
-        "selenium.support.4.27.0.nupkg.sha512",
-        "selenium.support.nuspec"
-      ]
-    },
     "Selenium.WebDriver/4.27.0": {
       "sha512": "bMIpqwpBfYLa1lh8gPVa6A1i9LeWNsfc2mR9why0DutEKI7ck3GVxzco1bB/8bv+7IA6rk4sR9WpZLRUnH/AAw==",
       "type": "package",
@@ -2428,10 +2382,10 @@
         "xunit.abstractions.nuspec"
       ]
     },
-    "xunit.analyzers/1.17.0": {
-      "sha512": "0+pG4UhmVB09o8f1sab+LWmqr8o7clUDPG4OXmmszKoOfiinirF0SNNbH/StaxjbV6aZXBXl+ndWjjQ8cSXRUA==",
+    "xunit.analyzers/1.16.0": {
+      "sha512": "hptYM7vGr46GUIgZt21YHO4rfuBAQS2eINbFo16CV/Dqq+24Tp+P5gDCACu1AbFfW4Sp/WRfDPSK8fmUUb8s0Q==",
       "type": "package",
-      "path": "xunit.analyzers/1.17.0",
+      "path": "xunit.analyzers/1.16.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -2442,7 +2396,7 @@
         "analyzers/dotnet/cs/xunit.analyzers.fixes.dll",
         "tools/install.ps1",
         "tools/uninstall.ps1",
-        "xunit.analyzers.1.17.0.nupkg.sha512",
+        "xunit.analyzers.1.16.0.nupkg.sha512",
         "xunit.analyzers.nuspec"
       ]
     },
@@ -2525,13 +2479,10 @@
       "Microsoft.NET.ILLink.Tasks >= 8.0.11",
       "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.11",
       "RestSharp >= 112.1.0",
-      "Selenium.Support >= 4.27.0",
       "Selenium.WebDriver >= 4.27.0",
       "Selenium.WebDriver.ChromeDriver >= 131.0.6778.8700",
       "System.Text.Json >= 9.0.0",
-      "xunit >= 2.9.2",
-      "xunit.analyzers >= 1.17.0",
-      "xunit.assert >= 2.9.2"
+      "xunit >= 2.9.2"
     ]
   },
   "packageFolders": {
@@ -2540,11 +2491,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\MMAApp.csproj",
-      "projectName": "MMAApp",
-      "projectPath": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\MMAApp.csproj",
+      "projectUniqueName": "C:\\Users\\cichz\\Desktop\\Blazor\\MMABlazorApp\\MMAApp\\MMAApp\\MMAApp - Backup.csproj",
+      "projectName": "MMAApp - Backup",
+      "projectPath": "C:\\Users\\cichz\\Desktop\\Blazor\\MMABlazorApp\\MMAApp\\MMAApp\\MMAApp - Backup.csproj",
       "packagesPath": "C:\\Users\\cichz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\obj\\",
+      "outputPath": "C:\\Users\\cichz\\Desktop\\Blazor\\MMABlazorApp\\MMAApp\\MMAApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cichz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2603,10 +2554,6 @@
             "target": "Package",
             "version": "[112.1.0, )"
           },
-          "Selenium.Support": {
-            "target": "Package",
-            "version": "[4.27.0, )"
-          },
           "Selenium.WebDriver": {
             "target": "Package",
             "version": "[4.27.0, )"
@@ -2620,16 +2567,6 @@
             "version": "[9.0.0, )"
           },
           "xunit": {
-            "target": "Package",
-            "version": "[2.9.2, )"
-          },
-          "xunit.analyzers": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[1.17.0, )"
-          },
-          "xunit.assert": {
             "target": "Package",
             "version": "[2.9.2, )"
           }
