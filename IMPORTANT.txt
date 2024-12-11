@@ -1,0 +1,25 @@
+
+Commands to run selenium tests
+dotnet test --filter "TestSearchFighterFunctionality"
+
+dotnet test --filter "TestSearchFighterWhenFighterDoesNotExist"
+
+dotnet test --filter "TestNavigationToSearchFighterAndBackToHome"
+ 
+dotnet test --filter "TestSearchFighterAndGetRecordFunctionality"
+   
+dotnet test --filter "TestRedirectToSearchPage" 
+
+
+Azure Deployent Link
+https://mmablazorapp-ecetddcpccehcfax.westeurope-01.azurewebsites.net/
+
+
+******IMPORTANT******
+
+IF Project does not run locally please:
+
+1. Run the project by clicking the https run button
+2. If 7 errors pop up complaining about Duplicates please open the error file (MMAAPP.AssemblyInfo.cs)
+3. Comment out the entire file.
+4. Run the project by clicking the https run button.
