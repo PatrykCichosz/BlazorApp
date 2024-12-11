@@ -20,28 +20,41 @@ public class BlazorSearch : IDisposable
     {
         _driver.Navigate().GoToUrl("https://mmablazorapp-ecetddcpccehcfax.westeurope-01.azurewebsites.net/search");
 
-        var inputField = _wait.Until(driver => driver.FindElement(By.ClassName("search-input")));
+        var inputField = _wait.Until(driver =>
+        {
+            var element = driver.FindElement(By.ClassName("search-input"));
+            return element.Displayed && element.Enabled ? element : null;
+        });
+
+        if (inputField == null)
+            throw new InvalidOperationException("The input field could not be found.");
 
         inputField.SendKeys("NonExistent Fighter");
 
-        System.Threading.Thread.Sleep(2000);
+        var searchButton = _wait.Until(driver =>
+        {
+            var element = driver.FindElement(By.ClassName("search-button"));
+            return element.Displayed && element.Enabled ? element : null;
+        });
 
-        var searchButton = _driver.FindElement(By.ClassName("search-button"));
+        if (searchButton == null)
+            throw new InvalidOperationException("The search button could not be found.");
+
         searchButton.Click();
 
-        _wait.Until(driver => driver.FindElement(By.ClassName("error-message")).Displayed);
+        var errorMessage = _wait.Until(driver =>
+        {
+            var element = driver.FindElement(By.ClassName("error-message"));
+            return element.Displayed ? element : null;
+        });
 
-        var errorMessage = _driver.FindElement(By.ClassName("error-message"));
+        if (errorMessage == null)
+            throw new InvalidOperationException("The error message could not be found.");
 
-        System.Threading.Thread.Sleep(2000);
-
-        bool isErrorMessageDisplayed = errorMessage.Displayed;
-
-        Assert.True(isErrorMessageDisplayed, "An error message should be displayed when no fighter is found.");
-
-        bool isErrorMessageTextCorrect = errorMessage.Text.Contains("No fighter found");
-        Assert.True(isErrorMessageTextCorrect, "The error message should contain 'No fighter found' text.");
+        Assert.True(errorMessage.Displayed, "An error message should be displayed when no fighter is found.");
+        Assert.Contains("No fighter found", errorMessage.Text);
     }
+
 
     public void Dispose()
     {

@@ -19,31 +19,51 @@ public class MMAAppTests : IDisposable
     {
         _driver.Navigate().GoToUrl("https://mmablazorapp-ecetddcpccehcfax.westeurope-01.azurewebsites.net/search");
 
-        WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
-        var searchInput = wait.Until(drv => drv.FindElement(By.CssSelector(".search-input")));
+        WebDriverWait wait = new WebDriverWait(new SystemClock(), _driver, TimeSpan.FromSeconds(10), TimeSpan.FromMilliseconds(500));
 
-        searchInput.Clear();
-
+        var searchInput = wait.Until(drv =>
+        {
+            var element = drv.FindElement(By.CssSelector(".search-input"));
+            return element != null && element.Displayed && element.Enabled ? element : null;
+        });
+        Assert.NotNull(searchInput);
+        searchInput!.Clear();
         searchInput.SendKeys("Alex Pereira");
 
-        var searchButton = wait.Until(drv => drv.FindElement(By.CssSelector(".search-button")));
-        searchButton.Click();
+        var searchButton = wait.Until(drv =>
+        {
+            var element = drv.FindElement(By.CssSelector(".search-button"));
+            return element != null && element.Displayed && element.Enabled ? element : null;
+        });
+        Assert.NotNull(searchButton);
+        searchButton!.Click();
+
+        await Task.Delay(5000);
+
+        var getRecordButton = wait.Until(drv =>
+        {
+            var element = drv.FindElement(By.CssSelector(".record-button"));
+            return element != null && element.Displayed && element.Enabled ? element : null;
+        });
+        Assert.NotNull(getRecordButton);
+        getRecordButton!.Click();
 
         await Task.Delay(4000);
 
-        var getRecordButton = wait.Until(drv => drv.FindElement(By.CssSelector(".record-button")));
-        getRecordButton.Click();
+        var recordDetails = wait.Until(drv =>
+        {
+            var element = drv.FindElement(By.CssSelector(".fighter-record"));
+            return element != null && element.Displayed ? element : null;
+        });
+        Assert.NotNull(recordDetails);
 
-        await Task.Delay(3000);
-
-        var recordDetails = wait.Until(drv => drv.FindElement(By.CssSelector(".fighter-record")));
-        Assert.True(recordDetails.Displayed, "The fighter's record is not displayed");
-
-        var recordText = recordDetails.Text;
+        var recordText = recordDetails!.Text;
         Assert.Contains("Wins", recordText);
         Assert.Contains("Losses", recordText);
         Assert.Contains("Draws", recordText);
     }
+
+
     public void Dispose()
     {
         _driver.Quit();

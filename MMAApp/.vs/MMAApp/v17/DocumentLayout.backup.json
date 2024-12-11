@@ -3,36 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\blazore2etests\\obj\\release\\net8.0\\blazore2etests.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|solutionrelative:mmaapp\\blazore2etests\\obj\\release\\net8.0\\blazore2etests.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\mmaapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|solutionrelative:mmaapp\\mmaapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|solutionrelative:mmaapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\blazore2etests\\testredirecttosearchpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|solutionrelative:mmaapp\\blazore2etests\\testredirecttosearchpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\blazore2etests\\testrecorddisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|solutionrelative:mmaapp\\blazore2etests\\testrecorddisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\blazore2etests\\testpagenavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|solutionrelative:mmaapp\\blazore2etests\\testpagenavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\blazore2etests\\testincorrectfighterinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|solutionrelative:mmaapp\\blazore2etests\\testincorrectfighterinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\blazore2etests\\testredirecttosearchpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|solutionrelative:mmaapp\\blazore2etests\\testredirecttosearchpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\blazore2etests\\testfighterinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|solutionrelative:mmaapp\\blazore2etests\\testfighterinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\mmaapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|solutionrelative:mmaapp\\mmaapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|solutionrelative:mmaapp\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\pages\\search.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|solutionrelative:mmaapp\\pages\\search.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\blazore2etests\\testrecorddisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|solutionrelative:mmaapp\\blazore2etests\\testrecorddisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\pages\\fightresults.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|solutionrelative:mmaapp\\pages\\fightresults.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\blazore2etests\\testpagenavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|solutionrelative:mmaapp\\blazore2etests\\testpagenavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\blazore2etests\\obj\\release\\net8.0\\blazore2etests.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|solutionrelative:mmaapp\\blazore2etests\\obj\\release\\net8.0\\blazore2etests.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\blazore2etests\\obj\\release\\net8.0\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,20 +67,8 @@
       "RelativeMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|solutionrelative:mmaapp\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\pages\\search.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|solutionrelative:mmaapp\\pages\\search.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|solutionrelative:mmaapp\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|solutionrelative:mmaapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\pages\\fightresults.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|solutionrelative:mmaapp\\pages\\fightresults.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{541437D0-41D3-4A97-8276-85A121307854}|MMAApp\\MMAApp.csproj|c:\\users\\cichz\\source\\repos\\mmablazorapp\\mmaapp\\mmaapp\\pages\\services\\mmaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -138,7 +138,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -146,43 +146,140 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TestRecordDisplay.cs",
-              "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\TestRecordDisplay.cs",
-              "RelativeDocumentMoniker": "MMAApp\\BlazorE2ETests\\TestRecordDisplay.cs",
-              "ToolTip": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\TestRecordDisplay.cs",
-              "RelativeToolTip": "MMAApp\\BlazorE2ETests\\TestRecordDisplay.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T07:31:47.611Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "TestFighterInput.cs",
               "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\TestFighterInput.cs",
               "RelativeDocumentMoniker": "MMAApp\\BlazorE2ETests\\TestFighterInput.cs",
               "ToolTip": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\TestFighterInput.cs",
               "RelativeToolTip": "MMAApp\\BlazorE2ETests\\TestFighterInput.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T07:25:48.286Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "TestRecordDisplay.cs",
+              "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\TestRecordDisplay.cs",
+              "RelativeDocumentMoniker": "MMAApp\\BlazorE2ETests\\TestRecordDisplay.cs",
+              "ToolTip": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\TestRecordDisplay.cs",
+              "RelativeToolTip": "MMAApp\\BlazorE2ETests\\TestRecordDisplay.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T07:31:47.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TestPageNavigation.cs",
+              "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\TestPageNavigation.cs",
+              "RelativeDocumentMoniker": "MMAApp\\BlazorE2ETests\\TestPageNavigation.cs",
+              "ToolTip": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\TestPageNavigation.cs",
+              "RelativeToolTip": "MMAApp\\BlazorE2ETests\\TestPageNavigation.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T07:55:55.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FightResults.razor",
+              "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\Pages\\FightResults.razor",
+              "RelativeDocumentMoniker": "MMAApp\\Pages\\FightResults.razor",
+              "ToolTip": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\Pages\\FightResults.razor",
+              "RelativeToolTip": "MMAApp\\Pages\\FightResults.razor",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T22:22:29.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestRedirectToSearchPage.cs",
+              "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\TestRedirectToSearchPage.cs",
+              "RelativeDocumentMoniker": "MMAApp\\BlazorE2ETests\\TestRedirectToSearchPage.cs",
+              "ToolTip": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\TestRedirectToSearchPage.cs",
+              "RelativeToolTip": "MMAApp\\BlazorE2ETests\\TestRedirectToSearchPage.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T07:10:00.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "MMAApp\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\Pages\\Home.razor",
+              "RelativeToolTip": "MMAApp\\Pages\\Home.razor",
+              "ViewState": "AgIAADIAAAAAAAAAAAAUwEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T23:06:15.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\App.razor",
+              "RelativeDocumentMoniker": "MMAApp\\App.razor",
+              "ToolTip": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\App.razor",
+              "RelativeToolTip": "MMAApp\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T23:07:45.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MMAApp.csproj",
               "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\MMAApp.csproj",
               "RelativeDocumentMoniker": "MMAApp\\MMAApp.csproj",
               "ToolTip": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\MMAApp.csproj",
               "RelativeToolTip": "MMAApp\\MMAApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-09T12:05:17.086Z"
+              "WhenOpened": "2024-12-09T12:05:17.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestIncorrectFighterInput.cs",
+              "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\TestIncorrectFighterInput.cs",
+              "RelativeDocumentMoniker": "MMAApp\\BlazorE2ETests\\TestIncorrectFighterInput.cs",
+              "ToolTip": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\TestIncorrectFighterInput.cs",
+              "RelativeToolTip": "MMAApp\\BlazorE2ETests\\TestIncorrectFighterInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T07:45:36.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Search.razor",
+              "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\Pages\\Search.razor",
+              "RelativeDocumentMoniker": "MMAApp\\Pages\\Search.razor",
+              "ToolTip": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\Pages\\Search.razor",
+              "RelativeToolTip": "MMAApp\\Pages\\Search.razor",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAUwCYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T23:05:58.761Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "BlazorE2ETests.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\obj\\Release\\net8.0\\BlazorE2ETests.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "MMAApp\\BlazorE2ETests\\obj\\Release\\net8.0\\BlazorE2ETests.AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\obj\\Release\\net8.0\\BlazorE2ETests.AssemblyInfo.cs",
+              "RelativeToolTip": "MMAApp\\BlazorE2ETests\\obj\\Release\\net8.0\\BlazorE2ETests.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T09:11:46.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "MMAApp.AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\obj\\Debug\\net8.0\\MMAApp.AssemblyInfo.cs",
               "RelativeDocumentMoniker": "MMAApp\\obj\\Debug\\net8.0\\MMAApp.AssemblyInfo.cs",
@@ -194,69 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TestRedirectToSearchPage.cs",
-              "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\TestRedirectToSearchPage.cs",
-              "RelativeDocumentMoniker": "MMAApp\\BlazorE2ETests\\TestRedirectToSearchPage.cs",
-              "ToolTip": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\TestRedirectToSearchPage.cs",
-              "RelativeToolTip": "MMAApp\\BlazorE2ETests\\TestRedirectToSearchPage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T07:10:00.597Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\App.razor",
-              "RelativeDocumentMoniker": "MMAApp\\App.razor",
-              "ToolTip": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\App.razor",
-              "RelativeToolTip": "MMAApp\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T23:07:45.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BlazorE2ETests.AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\obj\\Release\\net8.0\\BlazorE2ETests.AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "MMAApp\\BlazorE2ETests\\obj\\Release\\net8.0\\BlazorE2ETests.AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\obj\\Release\\net8.0\\BlazorE2ETests.AssemblyInfo.cs",
-              "RelativeToolTip": "MMAApp\\BlazorE2ETests\\obj\\Release\\net8.0\\BlazorE2ETests.AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T09:11:46.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TestIncorrectFighterInput.cs",
-              "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\TestIncorrectFighterInput.cs",
-              "RelativeDocumentMoniker": "MMAApp\\BlazorE2ETests\\TestIncorrectFighterInput.cs",
-              "ToolTip": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\TestIncorrectFighterInput.cs",
-              "RelativeToolTip": "MMAApp\\BlazorE2ETests\\TestIncorrectFighterInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T07:45:36.952Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TestPageNavigation.cs",
-              "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\TestPageNavigation.cs",
-              "RelativeDocumentMoniker": "MMAApp\\BlazorE2ETests\\TestPageNavigation.cs",
-              "ToolTip": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\TestPageNavigation.cs",
-              "RelativeToolTip": "MMAApp\\BlazorE2ETests\\TestPageNavigation.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T07:55:55.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\BlazorE2ETests\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "RelativeDocumentMoniker": "MMAApp\\BlazorE2ETests\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
@@ -268,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "RelativeDocumentMoniker": "MMAApp\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
@@ -280,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "MMAApp\\Layout\\NavMenu.razor",
@@ -292,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\_Imports.razor",
               "RelativeDocumentMoniker": "MMAApp\\_Imports.razor",
@@ -301,18 +336,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-05T23:33:38.387Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "FightResults.razor",
-              "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\Pages\\FightResults.razor",
-              "RelativeDocumentMoniker": "MMAApp\\Pages\\FightResults.razor",
-              "ToolTip": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\Pages\\FightResults.razor",
-              "RelativeToolTip": "MMAApp\\Pages\\FightResults.razor",
-              "ViewState": "AgIAAGYAAAAAAAAAAIBJwG8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-10T22:22:29.626Z"
             },
             {
               "$type": "Document",
@@ -352,31 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "MMAApp\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\Pages\\Home.razor",
-              "RelativeToolTip": "MMAApp\\Pages\\Home.razor",
-              "ViewState": "AgIAADMAAAAAAAAAAAAqwEkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T23:06:15.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Search.razor",
-              "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\Pages\\Search.razor",
-              "RelativeDocumentMoniker": "MMAApp\\Pages\\Search.razor",
-              "ToolTip": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\Pages\\Search.razor",
-              "RelativeToolTip": "MMAApp\\Pages\\Search.razor",
-              "ViewState": "AgIAAAkBAAAAAAAAAAAqwCYBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T23:05:58.761Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\cichz\\source\\repos\\MMABlazorApp\\MMAApp\\MMAApp\\Program.cs",
               "RelativeDocumentMoniker": "MMAApp\\Program.cs",

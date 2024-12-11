@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MMAApp",
   "resources": {
-    "hash": "sha256-EtJIA84xlutHqqACipmjhPzHYv9viZv5Yg6z6j+9XSQ=",
+    "hash": "sha256-CR49lgyZXDvNbCSSL+2uacHb25yIMk+L2aUGZHaOEog=",
     "jsModuleNative": {
       "dotnet.native.8.0.11.w3dveqsxkm.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -215,10 +215,10 @@
       "mscorlib.wasm": "sha256-04e4k5XU8HWGB/dq/2+j84xzzGPflTs0IYWI0OxogVc=",
       "netstandard.wasm": "sha256-gnGZURPnoSmjXuYNCOJi5tt8qn2LRImWgue1Ru3/TDQ=",
       "System.Private.CoreLib.wasm": "sha256-6w3jYr0arcp8jnt4aeqh+AmqrLA6q7jl9rQYAwLzE0M=",
-      "MMAApp.wasm": "sha256-+LZKTDxVmIJx7gUxCUFbmX3HVp+XdatyHV6JOiRDzcY="
+      "MMAApp.wasm": "sha256-oQv8KBj6UspIGa1okzw8lycsZSK0exHQfoLDLVPnhps="
     },
     "pdb": {
-      "MMAApp.pdb": "sha256-dyGk2D4DKcT7M2UICBEoB67clOO9DGzXtb1IXSBALf0="
+      "MMAApp.pdb": "sha256-v3I1cy4sGA0XjESnziuel+tA/0ToZV+yy8Wxc++eqf0="
     }
   },
   "cacheBootResources": true,

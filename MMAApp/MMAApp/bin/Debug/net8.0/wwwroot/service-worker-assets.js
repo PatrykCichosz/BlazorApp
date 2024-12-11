@@ -141,6 +141,14 @@
       "url": "_framework\/RestSharp.wasm"
     },
     {
+      "hash": "sha256-+nlx0F4\/b2oNqf38nDVogGGbzrsfLnQOSXMrNLudSWo=",
+      "url": "_framework\/WebDriver.Support.wasm"
+    },
+    {
+      "hash": "sha256-lyVv0d8ADBwTWgyo3jjUIulmVLUvVn9JclEc2IAY5co=",
+      "url": "_framework\/WebDriver.wasm"
+    },
+    {
       "hash": "sha256-JqVBy6SV+3qk+IK3VJiyIDt9CsVk6b1\/ytTXmrI4mTM=",
       "url": "_framework\/System.IO.Pipelines.wasm"
     },
@@ -151,6 +159,22 @@
     {
       "hash": "sha256-7bgDcdOvxXUt2GWh6n41JbhjOIYMYMR+xdym3\/AeKMg=",
       "url": "_framework\/System.Text.Json.wasm"
+    },
+    {
+      "hash": "sha256-FMbuMTkxDbIP6RfJCxjGvjndsldPgOAoaTQzqmvU+C0=",
+      "url": "_framework\/xunit.abstractions.wasm"
+    },
+    {
+      "hash": "sha256-2oHdCDVkJVioCFjRwdzCtU2IK2XQuyrMbS7aqGTtp6s=",
+      "url": "_framework\/xunit.assert.wasm"
+    },
+    {
+      "hash": "sha256-M\/dppNum01eD7T7uWKZpeFqxWCCSl6hZYVCovlQcpEE=",
+      "url": "_framework\/xunit.core.wasm"
+    },
+    {
+      "hash": "sha256-PLwmwvC+XNJfJqLySku4hpWw5QhandpOpmUUksl5NCk=",
+      "url": "_framework\/xunit.execution.dotnet.wasm"
     },
     {
       "hash": "sha256-Uadhh9ejd0eod083HcpwnJ3OpcrMgcP88Vyftm5\/ZkA=",
@@ -853,41 +877,17 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-83G5hrdlUoGY1Y8v6lCz+tZCTuuVz4nJC3ZaXPFNGZA=",
+      "hash": "sha256-oQv8KBj6UspIGa1okzw8lycsZSK0exHQfoLDLVPnhps=",
       "url": "_framework\/MMAApp.wasm"
     },
     {
-      "hash": "sha256-fErPGiDvGl7z\/4fIMLbO89dmaobK2b3WsKKtFQjo1a0=",
+      "hash": "sha256-v3I1cy4sGA0XjESnziuel+tA\/0ToZV+yy8Wxc++eqf0=",
       "url": "_framework\/MMAApp.pdb"
     },
     {
-      "hash": "sha256-EMi6NSK93i5MQdcb3aIWJEqXyxFZOezJFkZw8njB4O8=",
+      "hash": "sha256-l\/5NBT\/cxA8j9aACFT9tIKrCqvZxsqvAetQ5s1psX8Q=",
       "url": "_framework\/blazor.boot.json"
-    },
-    {
-      "hash": "sha256-+nlx0F4\/b2oNqf38nDVogGGbzrsfLnQOSXMrNLudSWo=",
-      "url": "_framework\/WebDriver.Support.wasm"
-    },
-    {
-      "hash": "sha256-lyVv0d8ADBwTWgyo3jjUIulmVLUvVn9JclEc2IAY5co=",
-      "url": "_framework\/WebDriver.wasm"
-    },
-    {
-      "hash": "sha256-FMbuMTkxDbIP6RfJCxjGvjndsldPgOAoaTQzqmvU+C0=",
-      "url": "_framework\/xunit.abstractions.wasm"
-    },
-    {
-      "hash": "sha256-2oHdCDVkJVioCFjRwdzCtU2IK2XQuyrMbS7aqGTtp6s=",
-      "url": "_framework\/xunit.assert.wasm"
-    },
-    {
-      "hash": "sha256-M\/dppNum01eD7T7uWKZpeFqxWCCSl6hZYVCovlQcpEE=",
-      "url": "_framework\/xunit.core.wasm"
-    },
-    {
-      "hash": "sha256-PLwmwvC+XNJfJqLySku4hpWw5QhandpOpmUUksl5NCk=",
-      "url": "_framework\/xunit.execution.dotnet.wasm"
     }
   ],
-  "version": "RBLklRYr"
+  "version": "GJykEJq\/"
 };
